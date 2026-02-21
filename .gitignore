@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+
+# Local secrets/config
+.env
+.env.*
+
+# Databases and logs
+*.db
+*.sqlite3
+*.log
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Frontend artifacts (root-level safety)
+node_modules/
+dist/
+
