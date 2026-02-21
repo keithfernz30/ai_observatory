@@ -38,10 +38,6 @@ The dashboard calls backend metrics at `http://127.0.0.1:8000/metrics`.
 Run from repository root (`ai_observability`):
 
 ```bash
-git init
-git add .
-git commit -m "Initial commit: FastAPI backend + React observability dashboard"
-git branch -M main
 git remote add origin https://github.com/<YOUR_USERNAME>/<YOUR_REPO>.git
 git push -u origin main
 ```
